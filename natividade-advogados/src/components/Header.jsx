@@ -15,7 +15,7 @@ const Header = () => {
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <Link to="/#" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <img 
                 src={logo}
                 alt="Natividade Advogados" 
@@ -24,21 +24,21 @@ const Header = () => {
             </Link>
 
             {/* Menu Desktop */}
-            <nav className="hidden md:flex space-x-12">
+            <nav className="hidden md:flex space-x-12"> {/* Aumentei o espaçamento entre os itens */}
               <Link 
-                to="/#"
+                to="/" 
                 className="text-marigold hover:text-marzipan transition-colors font-semibold text-lg tracking-wide"
               >
                 Início
               </Link>
               <Link 
-                to="/#/sobre"
+                to="/sobre" 
                 className="text-marigold hover:text-marzipan transition-colors font-semibold text-lg tracking-wide"
               >
                 Sobre Nós
               </Link>
               <Link 
-                to="/#/contato"
+                to="/contato" 
                 className="text-marigold hover:text-marzipan transition-colors font-semibold text-lg tracking-wide"
               >
                 Contato
@@ -63,21 +63,21 @@ const Header = () => {
             <nav className="md:hidden py-4 border-t border-marigold/20 mt-4">
               <div className="flex flex-col space-y-4">
                 <Link 
-                  to="/#"
+                  to="/" 
                   className="text-marigold hover:text-marzipan transition-colors font-semibold text-lg tracking-wide"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Início
                 </Link>
                 <Link 
-                  to="/#/sobre"
+                  to="/sobre" 
                   className="text-marigold hover:text-marzipan transition-colors font-semibold text-lg tracking-wide"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Sobre Nós
                 </Link>
                 <Link 
-                  to="/#/contato"
+                  to="/contato" 
                   className="text-marigold hover:text-marzipan transition-colors font-semibold text-lg tracking-wide"
                   onClick={() => setIsMenuOpen(false)}
                 >
