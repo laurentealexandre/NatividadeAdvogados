@@ -34,7 +34,7 @@ const About = () => {
                   </p>
                   <p className="flex items-center text-flax">
                     <Mail className="mr-2" />
-                    LEANDERADV@GMAIL.COM
+                    leanderadv@gmail.com
                   </p>
                 </div>
               </div>
