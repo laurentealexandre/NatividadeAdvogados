@@ -19,7 +19,7 @@ const Header = () => {
               <img 
                 src={logo}
                 alt="Natividade Advogados" 
-                className="h-16 md:h-20" 
+                className="h-16 md:h-20 border-2 border-marigold rounded-sm"  
               />
             </Link>
 
